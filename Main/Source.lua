@@ -527,7 +527,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Button.Name = "Button"
 			Button.Parent = Container
-			Button.BackgroundColor3 = Color3.fromRGB(06, 06, 06)
+			Button.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
 			Button.ClipsDescendants = true
 			Button.Position = UDim2.new(0.370312512, 0, 0.552631557, 0)
 			Button.Size = UDim2.new(0, 457, 0, 43)
@@ -549,10 +549,10 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Title.Size = UDim2.new(0, 113, 0, 42)
 			Title.Font = Enum.Font.FredokaOne
 			Title.Text = text
-			Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Title.TextColor3 = Color3.fromRGB(255, 0, 191)
 			Title.TextSize = 15.000
 			Title.TextTransparency = 0.300
-			Title.TextXAlignment = Enum.TextXAlignment.Left
+			Title.TextXAlignment = Enum.TextXAlignment.Center
 
 			Circle.Name = "Circle"
 			Circle.Parent = Title
@@ -560,7 +560,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Circle.AnchorPoint = Vector2.new(0.5, 0.5)
 			Circle.BackgroundColor3 = Color3.fromRGB(211, 211, 211)
 			Circle.Position = UDim2.new(-0.150690272, 0, 0.503000021, 0)
-			Circle.Size = UDim2.new(0, 11, 0, 11)
+			Circle.Size = UDim2.new(0, 15, 0, 15)
 
 			CircleCorner.CornerRadius = UDim.new(2, 6)
 			CircleCorner.Name = "CircleCorner"
@@ -573,7 +573,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			CircleSmall.BackgroundColor3 = Color3.fromRGB(06, 06, 06)
 			CircleSmall.BackgroundTransparency = 1.000
 			CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
-			CircleSmall.Size = UDim2.new(0, 9, 0, 9)
+			CircleSmall.Size = UDim2.new(0, 11, 0, 11)
 
 			CircleSmallCorner.CornerRadius = UDim.new(2, 6)
 			CircleSmallCorner.Name = "CircleSmallCorner"
