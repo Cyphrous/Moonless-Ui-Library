@@ -1,4 +1,4 @@
-local Flux = loadstring(game:HttpGet"https://pastebin.com/raw/KVQi1dRm")()
+local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/Cyphrous/Moonless-Ui-Library/main/Main/Source.lua")()
 
 local win = Flux:Window("Moonless Hub", "Game Name | MlH v0.1", Color3.fromRGB(212, 57, 165), Enum.KeyCode.RightControl)
 local tab = win:Tab("Change Logs", "http://www.roblox.com/asset/?id=54479722")

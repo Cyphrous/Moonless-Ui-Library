@@ -8,7 +8,7 @@ local Mouse = LocalPlayer:GetMouse()
 local CloseBind = Enum.KeyCode.RightControl
 
 local FluxLib = Instance.new("ScreenGui")
-FluxLib.Name = "FluxLib"
+FluxLib.Name = "Moonless Hub"
 FluxLib.Parent = game.CoreGui
 FluxLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
