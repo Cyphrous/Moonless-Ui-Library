@@ -1,7 +1,8 @@
-local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/Cyphrous/Moonless-Ui-Library/main/Main/Source.lua")()
+local Moon = loadstring(game:HttpGet"https://raw.githubusercontent.com/Cyphrous/Moonless-Ui-Library/main/Main/Source.lua")()
 
-local win = Flux:Window("Moonless Hub", "Game Name | MlH v0.1", Color3.fromRGB(212, 57, 165), Enum.KeyCode.RightControl)
-local tab = win:Tab("Change Logs", "http://www.roblox.com/asset/?id=54479722")
+local win = Moon:Window("Moonless Hub", "Game Name | MlH v0.1", Color3.fromRGB(212, 57, 165), Enum.KeyCode.RightControl)
+local tab = win:Tab("Change Logs", "http://www.roblox.com/asset/?id=8306117050")
+
 --[[
 tab:Button("Kill all", "This function may not work sometimes and you can get banned.", function()
 Flux:Notification("Killed all players successfully!", "Alright")
@@ -26,6 +27,6 @@ end)
 tab:Bind("Kill Bind", Enum.KeyCode.Q, function()
 print("Killed a random person!")
 end)]]--
-win:Tab("Scripts", "http://www.roblox.com/asset/?id=6031075938")
-win:Tab("Player", "http://www.roblox.com/asset/?id=8099668652")
-win:Tab("About Us", "http://www.roblox.com/asset/?id=8164258905")
+local tab = win:Tab("Scripts", "http://www.roblox.com/asset/?id=8306097924")
+win:Tab("Player", "http://www.roblox.com/asset/?id=8306055606")
+win:Tab("About Us", "http://www.roblox.com/asset/?id=8306039034")
