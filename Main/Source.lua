@@ -1727,7 +1727,7 @@ function DiscordLib:Window(text)
 		Hashtag.Position = UDim2.new(0.0279720277, 0, 0, 0)
 		Hashtag.Size = UDim2.new(0, 19, 0, 39)
 		Hashtag.Font = Enum.Font.Gotham
-		Hashtag.Text = "#"
+		Hashtag.Text = "•"
 		Hashtag.TextColor3 = Color3.fromRGB(255, 97, 186)
 		Hashtag.TextSize = 25.000
 
@@ -1954,7 +1954,7 @@ function DiscordLib:Window(text)
 			ChannelBtnHashtag.Position = UDim2.new(0.0279720314, 0, 0, 0)
 			ChannelBtnHashtag.Size = UDim2.new(0, 24, 0, 30)
 			ChannelBtnHashtag.Font = Enum.Font.Gotham
-			ChannelBtnHashtag.Text = "#"
+			ChannelBtnHashtag.Text = "•"
 			ChannelBtnHashtag.TextColor3 = Color3.fromRGB(255, 255, 255)
 			ChannelBtnHashtag.TextSize = 21.000
 
