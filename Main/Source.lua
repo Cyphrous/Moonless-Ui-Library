@@ -2272,8 +2272,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			
 			Container.CanvasSize = UDim2.new(0, 0, 0, ContainerLayout.AbsoluteContentSize.Y)
 		end
-		function ContainerContent:Label(text)
-            local labelfunc = {}    
+		function ContainerContent:Label(text) 
 			local Label = Instance.new("TextButton")
 			local LabelCorner = Instance.new("UICorner")
 			local Title = Instance.new("TextLabel")
@@ -2308,11 +2307,6 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			Title.TextXAlignment = Enum.TextXAlignment.Left
 			
 			Container.CanvasSize = UDim2.new(0, 0, 0, ContainerLayout.AbsoluteContentSize.Y)
-            function labelfunc:Refresh(tochange)
-                Label.Text = tochange
-            end
- 
-            return labelfunc
 		end
 		function ContainerContent:Textbox(text,desc,disapper,callback)
 			if desc == "" then
