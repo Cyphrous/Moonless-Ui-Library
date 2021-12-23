@@ -50,6 +50,18 @@ if not game:IsLoaded() then
 end
 screenGui:Destroy()
 wait(1)
+wait(1)
+print("Script Provided By: Moonless Hub\nMade by Viale")
+               wait(0.5)
+local vu = game:GetService("VirtualUser")
+               game:GetService("Players").LocalPlayer.Idled:connect(function()
+                  vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+                  wait(1)
+                  vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+               end)
+               print("Turning Anti AFK On")
+               wait(0.9)
+               print("ANTI AFK : ON")
 ----------------DONOTTOUCHUNLESSYOUKNOWWHATYOURDOING-----------------
 local DiscordLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/Cyphrous/Moonless-Ui-Library/main/Main/Source.lua'))(' ')
 local win = DiscordLib:Window("Moonless Hub | Game Name")
